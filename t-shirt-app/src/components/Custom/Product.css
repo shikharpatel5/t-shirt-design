@@ -1,0 +1,31 @@
+/* .prodImage {
+    background-image: url("../../../public/shirt.png");
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+    background-size: 100% 100%;
+} */
+
+
+.product-color{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.color-tile{
+    height: 100%;
+    border: 2px solid black;
+    width: 50px;
+}
+.product-color img{
+    width: 10%;
+    height: 10%;
+}
+
